@@ -1,0 +1,81 @@
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: #160D3B;
+        
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    padding: 0 2em;
+    width: 40%;
+}
+
+nav .logo a{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img#searchIcon{
+    position: absolute;
+    padding: 5px 20px;
+    min-width: 40px;
+}
+nav .searchBar{
+    width: 55%;
+    margin-left:auto ;
+}
+nav input{
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(90deg, #5502D5 0%, #59246C 50.96%, #731581 104.26%);
+    border-radius: 20px;
+    padding: .65em .75em;
+    border: none;
+    margin: 0 1em;
+    color: white;
+    outline: none;
+}
+nav input::placeholder{
+    color: white;
+}
+
+
+
+
+nav .logo img#logo{
+    width: 70px;
+    height:70px;
+}
+
+
+nav .logo h1{
+    font-size: 1.25em;
+    
+}
+
+nav ul{
+    padding: 0 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 .75em;
+}
+
+nav ul li#connect{
+    padding: .1em .5em .3em .5em;
+    background: linear-gradient(96.09deg, #EC56C9 0%, #9F2A7E 100%);
+    box-shadow: 0px 4.10448px 41.0448px rgba(192, 57, 161, 0.25), inset -1.64179px -2.46269px 0px #802366, inset 2.46269px 1.64179px 0px #E67ACD;
+    border-radius: .5em;
+}

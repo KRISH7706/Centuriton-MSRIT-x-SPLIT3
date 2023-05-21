@@ -1,0 +1,32 @@
+.marketPlace{
+    height: 100vh;
+    margin: 0 5%;
+}
+.marketPlace h1{
+    display: inline;
+    background: linear-gradient(90deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: .25em 3.5%;
+    font-size: 2.5em;
+}
+.marketPlace .buttons{
+    margin: 0 3.5%;
+}
+.marketPlace button{
+    margin: .75em 0;
+    color: white;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 2em;
+    padding: .4em 1.6em;
+}
+.marketPlace button:first-child{
+    margin-right: 2em ;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+}

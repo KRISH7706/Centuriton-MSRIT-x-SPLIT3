@@ -1,0 +1,39 @@
+
+.profile #user {
+    background: linear-gradient(125.45deg, #E945EC 20.28%, #314DDF 60.06%, #3298E1 97.42%);
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    transform: rotate(0.08deg);
+    color: white;
+    margin: 0 3.5%;
+    display: flex;
+    align-items: baseline;
+}
+.profile #user img{
+    margin: 0 .75em;
+    width: 90px;
+    transform: translateY(25px);
+}
+
+.profile .btns{
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile button{
+    margin: .5em 2em;
+    color: white;
+    background-color: transparent;
+    border: solid 1px #666;
+    border-radius: 2em;
+    padding: .4em 1.6em;
+}
+.profile button:first-child{
+    background-color: #314DDF;
+}
+.profile .cards{
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,61 @@
+.create{
+    color: white;
+    display: flex;
+    height: 90vh;
+}
+
+.left{
+    width: 40%;
+    margin: 1% 2.5%;
+    padding: 0 2.5%;
+}
+.photo{
+    margin: 1em 5%;
+    border: solid 1px white;
+    height: 80%;
+    display: grid;
+    place-items: center;
+    border-radius: 1em;
+    padding: 1em;
+}
+.photo img{
+    width: 100%;
+}
+
+.right{
+    width: 40%;
+    margin: 3% 2.5%;
+    padding: 0 2.5%;
+}
+
+.create .right form div{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+.create .right form button{
+    width: 70%;
+    padding: .5em 1em;
+    display: block;
+    margin: 1em auto;
+    color: white;
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1), inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+.create .right form #description{
+    padding: .25em .5em;
+    display: block;
+    margin-top: .5em;
+    height: 10em;
+    width: 100%;
+    border-radius: 1em;
+}
+
+.create .right form input{
+    padding: .25em .5em;
+    border-radius: .3em;
+    outline: none;
+}

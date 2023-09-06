@@ -1,11 +1,13 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.4;
+
 
 import "@openzeppelin/contracts@4.6.0/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts@4.6.0/token/ERC721/IERC721.sol";
 import "@openzeppelin/contracts@4.6.0/access/Ownable.sol";
 import "@openzeppelin/contracts@4.6.0/token/ERC20/extensions/draft-ERC20Permit.sol";
 import "@openzeppelin/contracts@4.6.0/token/ERC721/utils/ERC721Holder.sol";
+
+pragma solidity >=0.7.0 <0.9.0;
 
 contract FractionalizedNFT is ERC20, Ownable, ERC20Permit, ERC721Holder {
     IERC721 public collection;
